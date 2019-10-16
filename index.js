@@ -13,7 +13,7 @@ function nowServing(katzDeliLine) {
 for (var i = 0; i < katzDeliLine.length; i++) {
   var firstPerson = katzDeliLine[i];
   if (katzDeliLine.length === 0) {
-    return '';
+    return 'There is nobody waiting to be served!';
   }
   
 }
