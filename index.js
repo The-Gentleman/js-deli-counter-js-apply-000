@@ -25,5 +25,5 @@ function currentLine(line) {
   }
   // I need to make a variable for the people that are still on line
   var people = line.join();
-  console.log(line);
+  console.log(people);
 }
