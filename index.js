@@ -17,5 +17,6 @@ for (var i = 0; i < katzDeliLine.length; i++) {
   katzDeliLine.shift();
   return 'Currently serving ' + firstPerson + '.';
 }
-
 }
+
+function currentLine(line) {}
