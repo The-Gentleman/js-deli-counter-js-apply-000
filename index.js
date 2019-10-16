@@ -12,7 +12,9 @@ function nowServing(katzDeliLine) {
 
 for (var i = 0; i < katzDeliLine.length; i++) {
   var firstPerson = katzDeliLine[i];
-  
+  if (katzDeliLine.length === 0) {
+    return '';
+  }
   
 }
 
