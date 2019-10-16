@@ -14,6 +14,7 @@ function nowServing(katzDeliLine) {
   }
 for (var i = 0; i < katzDeliLine.length; i++) {
   var firstPerson = katzDeliLine[0];
+  katzDeliLine.shift();
   return 'Currently serving ' + firstPerson + '.';
 }
 
