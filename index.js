@@ -20,10 +20,10 @@ for (var i = 0; i < katzDeliLine.length; i++) {
 }
 
 function currentLine(line) {
-  if (katzDeliLine.length === 0) {
+  if (line.length === 0) {
     return 'The line is currently empty.';
   }
   // I need to make a variable for the people that are still on line
-  var people = katzDeliLine.join();
-  console.log(katzDeliLine);
+  var people = line.join();
+  console.log(line);
 }
