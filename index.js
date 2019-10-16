@@ -9,12 +9,12 @@ takeANumber(katzDeliLine, "Kent"); // "Welcome, Kent. You are number 3 in line."
 
 function nowServing(katzDeliLine) {
 // i need to make a firstPerson variable
-
-for (var i = 0; i < katzDeliLine.length; i++) {
-  var firstPerson = katzDeliLine[i];
-  if (katzDeliLine.length === 0) {
+ if (katzDeliLine.length === 0) {
     return 'There is nobody waiting to be served!';
   }
+for (var i = 0; i < katzDeliLine.length; i++) {
+  var firstPerson = katzDeliLine[i];
+ 
   return 'Currently serving ' + firstPerson + '.';
 }
 
