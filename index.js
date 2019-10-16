@@ -24,10 +24,8 @@ function currentLine(line) {
     return 'The line is currently empty.';
   }
   // I need to make a variable for the people that are still on line
-  var people = line.join();
-  console.log(people[0]);
-  // return 'The line is currently: 1.' +people+
-  
+  console.log(line[0]);
+
   
   
 }
