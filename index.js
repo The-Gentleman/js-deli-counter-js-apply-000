@@ -8,6 +8,7 @@ takeANumber(katzDeliLine, "Grace"); // "Welcome, Grace. You are number 2 in line
 takeANumber(katzDeliLine, "Kent"); // "Welcome, Kent. You are number 3 in line."
 
 function nowServing(katzDeliLine) {
+  
   if (katzDeliLine.length === 0) {
     return 'There is nobody waiting to be served!';
   }
