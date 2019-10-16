@@ -8,6 +8,12 @@ takeANumber(katzDeliLine, "Grace"); // "Welcome, Grace. You are number 2 in line
 takeANumber(katzDeliLine, "Kent"); // "Welcome, Kent. You are number 3 in line."
 
 function nowServing(katzDeliLine) {
+// i need to make a firstPerson variable
 
+for (var i = 0; i < katzDeliLine.length; i++) {
+  var firstPerson = katzDeliLine[i];
+  
+  
+}
 
 }
